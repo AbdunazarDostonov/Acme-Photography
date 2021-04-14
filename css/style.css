@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container{
+    box-shadow: 2px 2px 30px rgb(182, 176, 176), -2px -2px 30px rgb(182, 176, 176);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_container{
+    display: flex;
+    height: 90vh;
+}
+
+.landingimg {
+    background-image: url('https://source.unsplash.com/random/1270x1000');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 60%;
+}
+
+.landing{
+    margin: 0 auto;
+    background-color:skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+   
+}
+
+.landing h1{
+    font-size: 30px;
+    margin: 0 ;
+}
+
+.landing h2{
+    font-size: 19.2px;
+    color: #888888;
+    margin: 10px 0 20px 0;
+}
+
+.landing a{
+    text-decoration: none;
+    border: 1px solid #888888;
+    color: black;
+    border-radius: 50px;
+    margin: 0;
+    font-size: 16px;
+    padding: 16px 48px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    
+}
+
+.header h1{
+    display: inline-block;
+    font-size: 16px;
+    border-left:1px dashed white ;
+    border-right:1px dashed white ;
+    padding: 15px 20px;
+}
+
+.text{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+
+.text h2{
+    margin: 5px auto;
+    font-size: 1.2rem;
+}
+
+.text p{
+    font-size: 1rem;
+    margin: 5px auto;
+}
+
+.content img {
+    width: 100%;
+    
+}
+
+.footer{
+    margin: 50px auto;
+    font-weight:bold;
+}
+
+
+
+a:hover{
+    background-color: black;
+    background-color:rgb(19, 221, 228);
+    color: white;
+}
+
+
+
+
+
+
+
+@media (max-width:600px){
+
+.top_container{
+        display: block;
+}
+
+.landing{
+        margin: 0 auto;
+        background-color:skyblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: 35vh;
+}
+
+.landingimg  {
+    background-image: url('https://source.unsplash.com/random/1000x1000');
+   height: 65vh;
+   width: 100%;
+}
+}
