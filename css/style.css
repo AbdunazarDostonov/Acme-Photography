@@ -123,8 +123,7 @@ a:hover{
 }
 
 .landing{
-        margin: 0 auto;
-        padding:1rem;
+        padding: 2rem 0;
         background-color:skyblue;
         display: flex;
         flex-direction: column;
